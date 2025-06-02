@@ -9,6 +9,9 @@ import lombok.Value;
 @Schema(description = "Dados de resposta de um Post")
 public class PostResponse {
 
+    @Schema(description = "ID do Post")
+    Long id;
+    
     @Schema(description = "Titulo de um Post")
     String titulo;
     
