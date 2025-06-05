@@ -1,8 +1,8 @@
-# 🐾 MundoPet - Blog Interativo para Amantes de Pets
+# 🐾 MundoPet - API para Blog de Pets
 
 ## 📝 Descrição
 
-O **MundoPet** é um blog interativo desenvolvido para compartilhar conteúdo sobre pets. A aplicação permite que os usuários criem, visualizem, editem e excluam posts sobre animais de estimação. É uma plataforma dedicada a todos os amantes de animais que desejam compartilhar conhecimentos sobre cuidados, alimentação, comportamento e curiosidades sobre seus pets.
+O **MundoPet** é uma **API REST** desenvolvida para gerenciar um blog de conteúdo sobre pets. Ela permite que aplicações cliente criem, visualizem, editem e excluam posts sobre animais de estimação. Essa API serve como backend para plataformas voltadas a amantes de animais, facilitando o compartilhamento de conhecimentos sobre cuidados, alimentação, comportamento e curiosidades sobre pets.
 
 ---
 
@@ -214,7 +214,7 @@ docker compose up --build
 
  # 🖼️ Interface Front-end
 
-O **MundoPet** possui uma interface web desenvolvida com **React**, que se comunica com esta API REST para oferecer uma experiência fluida e interativa aos usuários. O front permite:
+O **MundoPet** possui uma interface web desenvolvida com **React** com **TypeScript**, que se comunica com esta API REST para oferecer uma experiência fluida e interativa aos usuários. O front permite:
 
 - Visualizar todos os posts
 - Criar novos conteúdos
